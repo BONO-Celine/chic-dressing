@@ -1,0 +1,48 @@
+# Translation of Plugins - Cache Enabler - Stable (latest release) in French (France)
+# This file is distributed under the same license as the Plugins - Cache Enabler - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-05-26 18:38:51+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.4\n"
+"Language: fr\n"
+"Project-Id-Version: Plugins - Cache Enabler - Stable (latest release)\n"
+
+#: inc/cache_enabler.class.php:1208
+msgid "Empty"
+msgstr "Vide"
+
+#: inc/cache_enabler.class.php:1209
+msgid "Cache Size"
+msgstr "Taille du cache"
+
+#. Author of the plugin
+msgid "KeyCDN"
+msgstr "KeyCDN"
+
+#. Author URI of the plugin
+msgid "https://www.keycdn.com"
+msgstr "https://www.keycdn.com"
+
+#. Plugin Name of the plugin
+msgid "Cache Enabler"
+msgstr "Cache Enabler"
+
+#: inc/cache_enabler.class.php:1151
+msgid "Settings"
+msgstr "Réglages"
+
+#: inc/cache_enabler.class.php:2589
+msgid "Cache Behavior"
+msgstr "Comportement du cache"
+
+#: inc/cache_enabler.class.php:2701
+msgid "Cache Exclusions"
+msgstr "Exclusions du cache"
+
+#: inc/cache_enabler.class.php:2394 inc/cache_enabler.class.php:2554
+msgid "Cache Enabler Settings"
+msgstr "Réglages de Cache Enabler"

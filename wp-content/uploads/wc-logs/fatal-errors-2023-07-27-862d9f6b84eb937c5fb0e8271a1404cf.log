@@ -1,0 +1,36 @@
+2023-07-27T02:32:02+00:00 CRITICAL Uncaught TypeError: implode(): Argument #2 ($array) must be of type ?array, string given in D:\wamp64\www\chic-dressing\wp-content\plugins\wysija-newsletters\helpers\file.php:161
+Stack trace:
+#0 D:\wamp64\www\chic-dressing\wp-content\plugins\wysija-newsletters\helpers\file.php(161): implode(Array, '|')
+#1 D:\wamp64\www\chic-dressing\wp-content\plugins\wysija-newsletters\core\base.php(820): WYSIJA_help_file->clear()
+#2 D:\wamp64\www\chic-dressing\wp-content\plugins\wysija-newsletters\helpers\cron.php(184): WYSIJA::croned_daily()
+#3 D:\wamp64\www\chic-dressing\wp-content\plugins\wysija-newsletters\helpers\cron.php(120): WYSIJA_help_cron->run_scheduled_task('daily')
+#4 D:\wamp64\www\chic-dressing\wp-content\plugins\wysija-newsletters\helpers\cron.php(56): WYSIJA_help_cron->check_scheduled_task(Array, 'daily')
+#5 D:\wamp64\www\chic-dressing\wp-content\plugins\wysija-newsletters\core\base.php(1525): WYSIJA_help_cron->run()
+#6 D:\wamp64\www\chic-dressing\wp-includes\class-wp-hook.php(308): init_wysija_cron('')
+#7 D:\wamp64\www\chic-dressing\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#8 D:\wamp64\www\chic-dressing\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 D:\wamp64\www\chic-dressing\wp-settings.php(623): do_action('init')
+#10 D:\wamp64\www\chic-dressing\wp-config.php(96): require_once('D:\\wamp64\\www\\c...')
+#11 D:\wamp64\www\chic-dressing\wp-load.php(50): require_once('D:\\wamp64\\www\\c...')
+#12 D:\wamp64\www\chic-dressing\wp-cron.php(46): require_once('D:\\wamp64\\www\\c...')
+#13 {main}
+  thrown dans D:\wamp64\www\chic-dressing\wp-content\plugins\wysija-newsletters\helpers\file.php à la ligne 161
+
+2023-07-27T02:32:02+00:00 CRITICAL Uncaught TypeError: implode(): Argument #2 ($array) must be of type ?array, string given in D:\wamp64\www\chic-dressing\wp-content\plugins\wysija-newsletters\helpers\file.php:161
+Stack trace:
+#0 D:\wamp64\www\chic-dressing\wp-content\plugins\wysija-newsletters\helpers\file.php(161): implode(Array, '|')
+#1 D:\wamp64\www\chic-dressing\wp-content\plugins\wysija-newsletters\core\base.php(820): WYSIJA_help_file->clear()
+#2 D:\wamp64\www\chic-dressing\wp-content\plugins\wysija-newsletters\helpers\cron.php(184): WYSIJA::croned_daily()
+#3 D:\wamp64\www\chic-dressing\wp-content\plugins\wysija-newsletters\helpers\cron.php(120): WYSIJA_help_cron->run_scheduled_task('daily')
+#4 D:\wamp64\www\chic-dressing\wp-content\plugins\wysija-newsletters\helpers\cron.php(56): WYSIJA_help_cron->check_scheduled_task(Array, 'daily')
+#5 D:\wamp64\www\chic-dressing\wp-content\plugins\wysija-newsletters\core\base.php(1525): WYSIJA_help_cron->run()
+#6 D:\wamp64\www\chic-dressing\wp-includes\class-wp-hook.php(308): init_wysija_cron('')
+#7 D:\wamp64\www\chic-dressing\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#8 D:\wamp64\www\chic-dressing\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 D:\wamp64\www\chic-dressing\wp-settings.php(623): do_action('init')
+#10 D:\wamp64\www\chic-dressing\wp-config.php(96): require_once('D:\\wamp64\\www\\c...')
+#11 D:\wamp64\www\chic-dressing\wp-load.php(50): require_once('D:\\wamp64\\www\\c...')
+#12 D:\wamp64\www\chic-dressing\wp-cron.php(46): require_once('D:\\wamp64\\www\\c...')
+#13 {main}
+  thrown dans D:\wamp64\www\chic-dressing\wp-content\plugins\wysija-newsletters\helpers\file.php à la ligne 161
+
